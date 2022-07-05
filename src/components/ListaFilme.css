@@ -1,0 +1,24 @@
+.arealistamain{
+    padding-left: 30px;
+}
+.area-lista{
+    display: flex;
+    margin-bottom: 30px;
+}
+.area-lista h2 {
+    margin: 0px 0px 0px 30px;
+}
+.area-lista{
+    overflow-x: hidden;
+}
+.movieRow-lista{
+    display: inline-block;
+    cursor: pointer;
+}
+.area-lista img{
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+.area-lista img:hover{
+    transform: scale(1);
+}
